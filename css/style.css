@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.container{
+    width: 1270px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 250px;
+}
+span{
+    background-color: rgb(51, 51, 232);
+    color: #fff;
+    width: 250px;
+    height: 30px;
+    padding-top: 5px;
+    display: inline-block;
+    border-radius: 0px 20px 20px 0px;
+}
+.fist-iteam{
+    width: 25%;
+    background-color: #fefafa;
+    padding: 20px;
+}
+h4{
+    padding: 30px 10px;
+    line-height: 25px;
+    color: black;
+    
+}
+h4 :hover{
+    text-decoration: underline;
+}
+.heading{
+    text-decoration: none;
+}
+.detail .iteam{
+    list-style-type: circle;
+    padding: 8px;
+}
+p{
+color: red;
+text-align: center;
+padding: 20px;
+}
+.button-1{
+    background-color: bisque;
+width: 100%;
+height: 30px;
+border: none;
+border-radius: 8px;
+margin-bottom: 10px;
+box-shadow: -webkit-box-shadow: 10px 10px 19px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 19px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 19px -9px rgba(0,0,0,0.75);;
+}
+
+.button-2{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0px;
+    background-color: rgb(243, 91, 91);
+    box-shadow: -webkit-box-shadow: 10px 10px 19px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 19px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 19px -9px rgba(0,0,0,0.75);;
+}
+.button-1:hover{
+    background-color: blue;
+    color: #fff;
+}
+.button-2:hover{
+    background-color: blue;
+    color: #fff;
+}
